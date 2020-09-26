@@ -15,7 +15,12 @@ class Doctor
   
   def appointments
     Appointment.all.select do |element|
-      element.
+      element.doctor == self
+    end
+  end
+  
+  def patients
+    appointment.
   
   
 end
