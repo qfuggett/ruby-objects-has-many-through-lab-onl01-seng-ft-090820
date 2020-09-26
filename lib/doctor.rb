@@ -26,7 +26,7 @@ class Doctor
   
   def patients
     appointment.collect do |element|
-      element.self
+      element.patient
     end
   end
   
