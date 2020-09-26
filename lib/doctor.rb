@@ -15,7 +15,7 @@ class Doctor
   
   def appointments
     Appointment.all.select do |element|
-      element
+      element.
   
   
 end
